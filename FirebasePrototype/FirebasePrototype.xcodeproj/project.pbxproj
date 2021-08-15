@@ -13,6 +13,7 @@
 		6D888FC126C9AC9A00FF982E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FBF26C9AC9A00FF982E /* Main.storyboard */; };
 		6D888FC326C9AC9B00FF982E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FC226C9AC9B00FF982E /* Assets.xcassets */; };
 		6D888FC626C9AC9B00FF982E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FC426C9AC9B00FF982E /* LaunchScreen.storyboard */; };
+		6D888FD126C9AEE500FF982E /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FD026C9AEE500FF982E /* HomeScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D888FC226C9AC9B00FF982E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D888FC526C9AC9B00FF982E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D888FC726C9AC9B00FF982E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D888FD026C9AEE500FF982E /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		6D888FB826C9AC9A00FF982E /* FirebasePrototype */ = {
 			isa = PBXGroup;
 			children = (
-				6D888FB926C9AC9A00FF982E /* AppDelegate.swift */,
-				6D888FBB26C9AC9A00FF982E /* SceneDelegate.swift */,
+				6D888FCD26C9ADEC00FF982E /* Home Screen */,
 				6D888FBD26C9AC9A00FF982E /* ViewController.swift */,
 				6D888FBF26C9AC9A00FF982E /* Main.storyboard */,
-				6D888FC226C9AC9B00FF982E /* Assets.xcassets */,
-				6D888FC426C9AC9B00FF982E /* LaunchScreen.storyboard */,
+				6D888FCE26C9AE1D00FF982E /* LaunchScreen */,
+				6D888FCF26C9AE4800FF982E /* Supporting Files */,
 				6D888FC726C9AC9B00FF982E /* Info.plist */,
 			);
 			path = FirebasePrototype;
+			sourceTree = "<group>";
+		};
+		6D888FCD26C9ADEC00FF982E /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6D888FD026C9AEE500FF982E /* HomeScreen.storyboard */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		6D888FCE26C9AE1D00FF982E /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6D888FC426C9AC9B00FF982E /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		6D888FCF26C9AE4800FF982E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D888FBB26C9AC9A00FF982E /* SceneDelegate.swift */,
+				6D888FB926C9AC9A00FF982E /* AppDelegate.swift */,
+				6D888FC226C9AC9B00FF982E /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D888FC626C9AC9B00FF982E /* LaunchScreen.storyboard in Resources */,
+				6D888FD126C9AEE500FF982E /* HomeScreen.storyboard in Resources */,
 				6D888FC326C9AC9B00FF982E /* Assets.xcassets in Resources */,
 				6D888FC126C9AC9A00FF982E /* Main.storyboard in Resources */,
 			);
