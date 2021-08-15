@@ -13,6 +13,7 @@
 		6D888FC326C9AC9B00FF982E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FC226C9AC9B00FF982E /* Assets.xcassets */; };
 		6D888FC626C9AC9B00FF982E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FC426C9AC9B00FF982E /* LaunchScreen.storyboard */; };
 		6D888FD126C9AEE500FF982E /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D888FD026C9AEE500FF982E /* HomeScreen.storyboard */; };
+		6DB2194826C9C229005105D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DB2194726C9C229005105D4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D888FC526C9AC9B00FF982E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D888FC726C9AC9B00FF982E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D888FD026C9AEE500FF982E /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		6DB2194726C9C229005105D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				6D888FCE26C9AE1D00FF982E /* LaunchScreen */,
 				6D888FCF26C9AE4800FF982E /* Supporting Files */,
 				6D888FC726C9AC9B00FF982E /* Info.plist */,
+				6DB2194726C9C229005105D4 /* GoogleService-Info.plist */,
 			);
 			path = FirebasePrototype;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D888FC626C9AC9B00FF982E /* LaunchScreen.storyboard in Resources */,
+				6DB2194826C9C229005105D4 /* GoogleService-Info.plist in Resources */,
 				6D888FD126C9AEE500FF982E /* HomeScreen.storyboard in Resources */,
 				6D888FC326C9AC9B00FF982E /* Assets.xcassets in Resources */,
 			);
